@@ -1,0 +1,174 @@
+
+.iiitdm-logo{
+    width: 230px;
+    height: auto;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 200px;
+    /* background-color: #cde2f2 !important; */
+    /* font-family: 'Baloo Paaji 2', cursive !important; */
+
+}
+
+
+nav{
+    font-size: 120% !important;
+    width: 100% !important;
+}
+
+.foot{
+    position: fixed;
+    bottom: 0px;
+    color: whitesmoke !important;
+    background-color: rgb(52, 51, 51);
+
+}
+
+.foot footer span{
+    color: whitesmoke !important;
+    background-color: rgb(52, 51, 51) !important;
+}
+.links{
+    color: whitesmoke !important;
+}
+
+.contents{
+    display: inline-block !important;
+    border: 2px solid tomato !important;
+    border-radius: 25px;
+    padding: 30px;
+    margin: auto;
+    max-width: 90%;
+}
+
+.about-content{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-wrap: wrap;
+}
+
+.one{
+    border: 2px solid tomato;
+    border-radius: 25px;
+    padding: 40px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:1280px){
+    .vid{
+        width: 45% !important;
+    }
+ 
+}
+
+@media screen and (max-width:1020px){
+    .login-inst{
+        position: fixed;
+        top: 40px;
+        right: 60px;
+    }
+
+    .vid{
+        width: 45% !important;
+    }
+
+    .one{
+        padding:20px !important;
+        margin: 20px -5px 0px -5px !important;
+    }
+}
+
+@media screen and (max-width:780px){
+    .w-100{
+        width: 125% !important;
+    }
+    .vid{
+        width: 75% !important;
+        height: auto;
+    }
+    .contents{
+        width: 70% !important;
+        
+    }
+    .one{
+        padding: 10px !important;
+        font-size: 10% !important;
+    }
+
+    /* .second{
+        font-size: 70% !important;
+    } */
+
+}
+@media screen and (max-width:530px){
+    .login-inst{
+        /* position: fixed; */
+        top: 45px;
+        font-size: 85% !important;
+        right: 40px;
+    }
+    .w-100{
+        /* width: 125% !important; */
+        margin: 0px 10px !important;
+    }
+    .c-images{
+        width: 10% !important;
+        height: auto !important;
+    }
+    .heading{
+        /* margin: 0px !important; */
+        padding: -10px !important;
+    }
+    .vid{
+        width: 90% !important;
+        height: auto;
+    }
+
+    nav{
+        font-size: 80% !important;
+    }
+}
+@media screen and (max-width:450px){
+    .login-inst{
+        
+        top: 30px;
+        
+        /* right: -30px;
+        margin-top: 5px; */
+    }
+
+    nav{
+        font-size: 80% !important;
+    }
+
+    .iiitdm-logo{
+        width: 150px;
+    }
+}
+
+@media screen and (max-width:385px){
+
+
+    .login-inst{
+        top: 70px;
+        right: -35px;
+    }
+    .contents{
+        font-size: 70% !important;
+    }
+}
+
+@media screen and (max-width:385px){
+
+
+   
+    .icon-foot{
+        margin-left: 45px !important;
+    }
+}
